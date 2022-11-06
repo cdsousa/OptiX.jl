@@ -1,0 +1,11 @@
+name = "OptiX"
+uuid = "1dd89295-08ef-469b-89eb-5e466d1f2fc1"
+authors = ["Cristóvão Duarte Sousa"]
+version = "0.1.0"
+
+[deps]
+BenchmarkTools = "6e4b80f9-dd63-53aa-95a3-0cdb28fa8baf"
+CEnum = "fa961155-64e5-5f13-b03f-caf6b980ea82"
+CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
+Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
+Setfield = "efcf1570-3423-57d1-acb7-fd33fddbac46"
