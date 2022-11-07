@@ -4,7 +4,7 @@
 
 This package demonstrates how GPUCompiler.jl/CUDA.jl can be used to create OptiX "programs" written in Julia.
 
-This code demonstrates solutions to several problems in wrapping and abstracting OptiX, for example:
+Potential solutions to several problems in wrapping and abstracting OptiX are demonstrated, for example:
 - The OptiX library is accessed by function pointers obtained in runtime;
 - Parameters are passed to OptiX "programs" as constant global GPU memory;
 - Device side functions must be called using custom assembly code (some have multiple return variables);
